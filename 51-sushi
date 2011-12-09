@@ -1,0 +1,174 @@
+#!/bin/bash
+
+#
+# Displays a random piece of ASCII art sushi upon SSH connection
+# by Bertrand Fan (bertrand@fan.net)
+# December 8, 2011
+#
+# Art is from here: http://sushiref.com/asciiart.html
+#
+# Installation (Ubuntu)
+# 
+# As root:
+#
+# If you don't already have it
+# apt-get install update-motd
+#
+# Place this file 51-sushi in /etc/update-motd.d
+#
+# Enjoy!
+#
+
+echo ""
+
+r=$RANDOM
+let "r %= 14"
+
+case "$r" in
+
+0)  echo "   ,;'''''''';,       "
+	echo " ,'  ________  ',     "
+	echo " ;,;'        ';,'     "
+	echo "   '.________.'       "
+	echo "                      "
+	echo "      Maguro          "
+	echo "      (Tuna)          "
+	;;
+	
+1)  echo "    ==========        "
+	echo " ///==========\\\     "
+	echo "///='        '=\\\    "
+	echo "   '.________.'       "
+	echo "                      "
+	echo "       Ika            "
+	echo "     (Squid)          "
+	;;
+
+2)  echo "       ,     ,        "
+	echo "  ;';' ''''' ;,;      "
+	echo " ,'  ________  ',     "
+	echo " ;,;'        ';,'     "
+	echo "   '.________.'       "
+	echo "                      "
+	echo "      Mirugai         "
+	echo "   (Giant Clam)       "
+	;;
+
+3)  echo "     _ ___  _         "
+	echo "   ,@@@@@@@@@@,       "
+	echo "  |'@@@@@@@@@@'|      "
+	echo "  |            |      "
+	echo "   '.________.'       "
+	echo "                      "
+	echo "       Uni            "
+	echo "   (Sea Urchin)       "
+	;;
+
+4)  echo "   ,;'''''''';,       "
+	echo " ,'  _o_o_o_o  ',     "
+	echo ",,,;'        ';,'     "
+	echo "   '.________.'       "
+	echo "                      "
+	echo "       Tako           "
+	echo "     (Octopus)        "
+	;;
+
+
+5)  echo "   ,;;;;;;;;;;,       "
+	echo " ,;;;;;;;;;;;;;;,     "
+	echo " ;;;'        ';;'     "
+	echo "   '.________.'       "
+	echo "                      "
+	echo "       Toro           "
+	echo "   (Fatty Tuna)       "
+	;;
+
+6)	echo "   ,iiiiiiiiii,       "
+	echo " ,iiiiiiiiiiiiii,     "
+	echo " iii'        'ii'     "
+	echo "   '.________.'       "
+	echo "                      "
+	echo "       Sake           "
+	echo "     (Salmon)         "
+	;;
+
+7)	echo " ------;;;;------     "
+	echo "|______|;;|______|    "
+	echo "  |    |;;|    |      "
+	echo "   '.__|;;|__.'       "
+	echo "                      "
+	echo "      Tamago          "
+	echo "   (Cooked Egg)       "
+	;;
+
+8)	echo "     ,,,,,,,,         "
+	echo " |'''        '''|     "
+	echo "|,,,,________,,,,|    "
+	echo "  |            |      "
+	echo "   '.________.'       "
+	echo "                      "
+	echo "      Unagi           "
+	echo " (Fresh Water Eel)    "
+	;;
+	
+9)	echo "     _ ___  _         "
+	echo "   ,;;;;;;;;;;,       "
+	echo "  |';;;;;;;;;;'|      "
+	echo "  |            |      "
+	echo "   '.________.'       "
+	echo "                      "
+	echo "      Tobiko          "
+	echo " (Flying Fish Roe)    "
+	;;	
+	
+10) echo "  ,;'''''''';,        "
+	echo ",'  ||||||||  ',      "
+	echo "|||'        '|||      "
+	echo "  '.________.'        "
+	echo "                      "
+	echo "      Saba            "
+	echo "   (Mackerel)         "
+	;;
+	
+11) echo "  ,;'''''''';,        "
+	echo ",'  ________  ',      "
+	echo ";,;'        ';,'      "
+	echo "  '.________.'        "
+	echo "                      "
+	echo "    Hamachi           "
+	echo "  (Yellowtail)        "
+	;;
+	
+12) echo "  ,,,,,,,,,,,         "
+	echo ",'' ;  ;  ;  ''|||\///"
+	echo "',,_;__;__;__;,'''/\\\\\\"
+	echo " |            |       "
+	echo "  '.________.'        "
+	echo "                      "
+	echo "      Ebi             "
+	echo "    (Shrimp)          "
+	;;
+
+13) echo "  ............        "
+	echo " ',_;__;__;___;;;;/// "
+	echo " ',_;__;__;__;'''\\\\\\\\ "
+	echo " |            |       "
+	echo "  '.________.'        "
+	echo "                      "
+	echo "    Ama Ebi           "
+	echo " (Sweet Shrimp)       "
+	;;
+	
+14) echo "    _ ___  _          "
+	echo "  .oooooooooo.        "
+	echo " |'oooooooooo'|       "
+	echo " |            |       "
+	echo "  '.________.'        "
+	echo "                      "
+	echo "     Ikura            "
+	echo "  (Salmon Roe)        "
+	;;
+	
+esac
+
+echo ""
