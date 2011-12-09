@@ -8,6 +8,10 @@ As root:
 	apt-get install upgrade-motd
 	cp 51-sushi /etc/update-motd.d/51-sushi
 
+### Screenshots
+
+![screenshot](https://github.com/bertrandom/sushi-motd/raw/gh-pages/screenshot.png)
+
 ### Credits
 
 Code by Bertrand Fan (bertrand@fan.net)
