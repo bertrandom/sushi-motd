@@ -27,148 +27,148 @@ let "r %= 14"
 case "$r" in
 
 0)  echo "   ,;'''''''';,       "
-	echo " ,'  ________  ',     "
-	echo " ;,;'        ';,'     "
-	echo "   '.________.'       "
-	echo "                      "
-	echo "      Maguro          "
-	echo "      (Tuna)          "
-	;;
-	
+    echo " ,'  ________  ',     "
+    echo " ;,;'        ';,'     "
+    echo "   '.________.'       "
+    echo "                      "
+    echo "      Maguro          "
+    echo "      (Tuna)          "
+    ;;
+    
 1)  echo "    ==========        "
-	echo " ///==========\\\     "
-	echo "///='        '=\\\    "
-	echo "   '.________.'       "
-	echo "                      "
-	echo "       Ika            "
-	echo "     (Squid)          "
-	;;
+    echo " ///==========\\\     "
+    echo "///='        '=\\\    "
+    echo "   '.________.'       "
+    echo "                      "
+    echo "       Ika            "
+    echo "     (Squid)          "
+    ;;
 
 2)  echo "       ,     ,        "
-	echo "  ;';' ''''' ;,;      "
-	echo " ,'  ________  ',     "
-	echo " ;,;'        ';,'     "
-	echo "   '.________.'       "
-	echo "                      "
-	echo "      Mirugai         "
-	echo "   (Giant Clam)       "
-	;;
+    echo "  ;';' ''''' ;,;      "
+    echo " ,'  ________  ',     "
+    echo " ;,;'        ';,'     "
+    echo "   '.________.'       "
+    echo "                      "
+    echo "      Mirugai         "
+    echo "   (Giant Clam)       "
+    ;;
 
 3)  echo "     _ ___  _         "
-	echo "   ,@@@@@@@@@@,       "
-	echo "  |'@@@@@@@@@@'|      "
-	echo "  |            |      "
-	echo "   '.________.'       "
-	echo "                      "
-	echo "       Uni            "
-	echo "   (Sea Urchin)       "
-	;;
+    echo "   ,@@@@@@@@@@,       "
+    echo "  |'@@@@@@@@@@'|      "
+    echo "  |            |      "
+    echo "   '.________.'       "
+    echo "                      "
+    echo "       Uni            "
+    echo "   (Sea Urchin)       "
+    ;;
 
 4)  echo "   ,;'''''''';,       "
-	echo " ,'  _o_o_o_o  ',     "
-	echo ",,,;'        ';,'     "
-	echo "   '.________.'       "
-	echo "                      "
-	echo "       Tako           "
-	echo "     (Octopus)        "
-	;;
+    echo " ,'  _o_o_o_o  ',     "
+    echo ",,,;'        ';,'     "
+    echo "   '.________.'       "
+    echo "                      "
+    echo "       Tako           "
+    echo "     (Octopus)        "
+    ;;
 
 
 5)  echo "   ,;;;;;;;;;;,       "
-	echo " ,;;;;;;;;;;;;;;,     "
-	echo " ;;;'        ';;'     "
-	echo "   '.________.'       "
-	echo "                      "
-	echo "       Toro           "
-	echo "   (Fatty Tuna)       "
-	;;
+    echo " ,;;;;;;;;;;;;;;,     "
+    echo " ;;;'        ';;'     "
+    echo "   '.________.'       "
+    echo "                      "
+    echo "       Toro           "
+    echo "   (Fatty Tuna)       "
+    ;;
 
-6)	echo "   ,iiiiiiiiii,       "
-	echo " ,iiiiiiiiiiiiii,     "
-	echo " iii'        'ii'     "
-	echo "   '.________.'       "
-	echo "                      "
-	echo "       Sake           "
-	echo "     (Salmon)         "
-	;;
+6)  echo "   ,iiiiiiiiii,       "
+    echo " ,iiiiiiiiiiiiii,     "
+    echo " iii'        'ii'     "
+    echo "   '.________.'       "
+    echo "                      "
+    echo "       Sake           "
+    echo "     (Salmon)         "
+    ;;
 
-7)	echo " ------;;;;------     "
-	echo "|______|;;|______|    "
-	echo "  |    |;;|    |      "
-	echo "   '.__|;;|__.'       "
-	echo "                      "
-	echo "      Tamago          "
-	echo "   (Cooked Egg)       "
-	;;
+7)  echo " ------;;;;------     "
+    echo "|______|;;|______|    "
+    echo "  |    |;;|    |      "
+    echo "   '.__|;;|__.'       "
+    echo "                      "
+    echo "      Tamago          "
+    echo "   (Cooked Egg)       "
+    ;;
 
-8)	echo "     ,,,,,,,,         "
-	echo " |'''        '''|     "
-	echo "|,,,,________,,,,|    "
-	echo "  |            |      "
-	echo "   '.________.'       "
-	echo "                      "
-	echo "      Unagi           "
-	echo " (Fresh Water Eel)    "
-	;;
-	
-9)	echo "     _ ___  _         "
-	echo "   ,;;;;;;;;;;,       "
-	echo "  |';;;;;;;;;;'|      "
-	echo "  |            |      "
-	echo "   '.________.'       "
-	echo "                      "
-	echo "      Tobiko          "
-	echo " (Flying Fish Roe)    "
-	;;	
-	
+8)  echo "     ,,,,,,,,         "
+    echo " |'''        '''|     "
+    echo "|,,,,________,,,,|    "
+    echo "  |            |      "
+    echo "   '.________.'       "
+    echo "                      "
+    echo "      Unagi           "
+    echo " (Fresh Water Eel)    "
+    ;;
+    
+9)  echo "     _ ___  _         "
+    echo "   ,;;;;;;;;;;,       "
+    echo "  |';;;;;;;;;;'|      "
+    echo "  |            |      "
+    echo "   '.________.'       "
+    echo "                      "
+    echo "      Tobiko          "
+    echo " (Flying Fish Roe)    "
+    ;;  
+    
 10) echo "  ,;'''''''';,        "
-	echo ",'  ||||||||  ',      "
-	echo "|||'        '|||      "
-	echo "  '.________.'        "
-	echo "                      "
-	echo "      Saba            "
-	echo "   (Mackerel)         "
-	;;
-	
+    echo ",'  ||||||||  ',      "
+    echo "|||'        '|||      "
+    echo "  '.________.'        "
+    echo "                      "
+    echo "      Saba            "
+    echo "   (Mackerel)         "
+    ;;
+    
 11) echo "  ,;'''''''';,        "
-	echo ",'  ________  ',      "
-	echo ";,;'        ';,'      "
-	echo "  '.________.'        "
-	echo "                      "
-	echo "    Hamachi           "
-	echo "  (Yellowtail)        "
-	;;
-	
+    echo ",'  ________  ',      "
+    echo ";,;'        ';,'      "
+    echo "  '.________.'        "
+    echo "                      "
+    echo "    Hamachi           "
+    echo "  (Yellowtail)        "
+    ;;
+    
 12) echo "  ,,,,,,,,,,,         "
-	echo ",'' ;  ;  ;  ''|||\///"
-	echo "',,_;__;__;__;,'''/\\\\\\"
-	echo " |            |       "
-	echo "  '.________.'        "
-	echo "                      "
-	echo "      Ebi             "
-	echo "    (Shrimp)          "
-	;;
+    echo ",'' ;  ;  ;  ''|||\///"
+    echo "',,_;__;__;__;,'''/\\\\\\"
+    echo " |            |       "
+    echo "  '.________.'        "
+    echo "                      "
+    echo "      Ebi             "
+    echo "    (Shrimp)          "
+    ;;
 
 13) echo "  ............        "
-	echo " ',_;__;__;___;;;;/// "
-	echo " ',_;__;__;__;'''\\\\\\\\ "
-	echo " |            |       "
-	echo "  '.________.'        "
-	echo "                      "
-	echo "    Ama Ebi           "
-	echo " (Sweet Shrimp)       "
-	;;
-	
+    echo " ',_;__;__;___;;;;/// "
+    echo " ',_;__;__;__;'''\\\\\\\\ "
+    echo " |            |       "
+    echo "  '.________.'        "
+    echo "                      "
+    echo "    Ama Ebi           "
+    echo " (Sweet Shrimp)       "
+    ;;
+    
 14) echo "    _ ___  _          "
-	echo "  .oooooooooo.        "
-	echo " |'oooooooooo'|       "
-	echo " |            |       "
-	echo "  '.________.'        "
-	echo "                      "
-	echo "     Ikura            "
-	echo "  (Salmon Roe)        "
-	;;
-	
+    echo "  .oooooooooo.        "
+    echo " |'oooooooooo'|       "
+    echo " |            |       "
+    echo "  '.________.'        "
+    echo "                      "
+    echo "     Ikura            "
+    echo "  (Salmon Roe)        "
+    ;;
+    
 esac
 
 echo ""
