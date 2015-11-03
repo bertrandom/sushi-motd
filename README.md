@@ -11,9 +11,21 @@ As root:
 	
 Note, if you're using Ubuntu 12.10, `UsePAM yes` must be set in `/etc/ssh/sshd_config`
 
+### Installation (Windows)
+
+Launch PowerShell
+
+	if (-not (Test-path $profile -quiet)){New-item $profile -force}
+	notepad $profile
+	#Copy Get-Sushi into your profile
+        #At the bottom of your profile, add 'Get-Sushi'
+
+The next time you launch PowerShell, you'll see your sushi!
+
 ### Screenshots
 
 ![screenshot](https://github.com/bertrandom/sushi-motd/raw/gh-pages/screenshot.png)
+![screenshot](https://github.com/1RedOne/sushi-motd/blob/master/PowerShellSushi.png)
 
 ### Credits
 
